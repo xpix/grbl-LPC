@@ -758,9 +758,9 @@
 #define DEFAULT_X_MAX_RATE 1500 // mm/min
 #define DEFAULT_Y_MAX_RATE 1500 // mm/min
 #define DEFAULT_Z_MAX_RATE 500.0 // mm/min
-#define DEFAULT_X_ACCELERATION (5000.0*60*60) // 5000*60*60 mm/min^2 = 5000 mm/sec^2
-#define DEFAULT_Y_ACCELERATION (5000.0*60*60) // 5000*60*60 mm/min^2 = 5000 mm/sec^2
-#define DEFAULT_Z_ACCELERATION (5000.0*60*60) // 5000*60*60 mm/min^2 = 5000 mm/sec^2
+#define DEFAULT_X_ACCELERATION (250.0*60*60) // 5000*60*60 mm/min^2 = 5000 mm/sec^2
+#define DEFAULT_Y_ACCELERATION (250.0*60*60) // 5000*60*60 mm/min^2 = 5000 mm/sec^2
+#define DEFAULT_Z_ACCELERATION (250.0*60*60) // 5000*60*60 mm/min^2 = 5000 mm/sec^2
 #define DEFAULT_X_CURRENT 2.0 // amps
 #define DEFAULT_Y_CURRENT 2.0 // amps
 #define DEFAULT_Z_CURRENT 2.0 // amps

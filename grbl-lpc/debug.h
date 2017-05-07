@@ -21,7 +21,6 @@
 // IN THE SOFTWARE.
 
 #include "LPC17xx.h"
-#include <atomic>
 
 static const uint32_t leds = (1 << 21) | (1 << 20) | (1 << 19) | (1 << 18);
 

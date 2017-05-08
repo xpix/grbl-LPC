@@ -738,10 +738,10 @@
 #define SPINDLE_PWM_USE_SECONDARY_PIN true
 
 // Stepper current control
-#define CURRENT_I2C Driver_I2C1         // I2C driver for current control. Comment out to disable.
-#define CURRENT_MCP44XX_ADDR 0b0101100  // Address of MCP44XX
-#define CURRENT_WIPERS {0, 1, 6, 7};    // Wiper registers (X, Y, Z, A)
-#define CURRENT_FACTOR 113.33           // Convert amps to digipot value
+//#define CURRENT_I2C Driver_I2C1         // I2C driver for current control. Comment out to disable.
+//#define CURRENT_MCP44XX_ADDR 0b0101100  // Address of MCP44XX
+//#define CURRENT_WIPERS {0, 1, 6, 7};    // Wiper registers (X, Y, Z, A)
+//#define CURRENT_FACTOR 113.33           // Convert amps to digipot value
 
 // Paste default settings definitions here.
 #define DEFAULT_X_STEPS_PER_MM 158.0

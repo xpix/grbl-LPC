@@ -56,13 +56,13 @@ CMSIS_EXCLUDE_OBJECTS =             \
     build/cmsis/USBD_LPC17xx.o      \
     build/cmsis/USBH_LPC17xx.o      \
 
-AS      = arm-none-eabi-as
-CC      = arm-none-eabi-gcc
-CXX     = arm-none-eabi-g++
-LD      = arm-none-eabi-gcc
-OBJCOPY = arm-none-eabi-objcopy
-OBJDUMP = arm-none-eabi-objdump
-SIZE    = arm-none-eabi-size 
+AS      = ~/opt/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-as
+CC      = ~/opt/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc
+CXX     = ~/opt/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-g++
+LD      = ~/opt/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-gcc
+OBJCOPY = ~/opt/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-objcopy
+OBJDUMP = ~/opt/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-objdump
+SIZE    = ~/opt/gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-size 
 
 CFLAGS =                                \
 	-DCORE_M3                           \

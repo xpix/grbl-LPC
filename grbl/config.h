@@ -693,6 +693,11 @@
 #endif
 */
 
+#define SPINDLE_DIRECTION_DDR   NotUsed
+#define SPINDLE_DIRECTION_PORT  NotUsed
+#define SPINDLE_DIRECTION_BIT   NotUsed  // Uno Digital Pin 13 (NOTE: D13 can't be pulled-high input due to LED.)
+
+
 // Define flood and mist coolant enable output pins.
 #define COOLANT_FLOOD_DDR   NotUsed
 #define COOLANT_FLOOD_PORT  NotUsed

@@ -664,7 +664,7 @@
 #define LIMIT_PIN         LPC_GPIO1->FIOPIN
 #define LIMIT_PORT        LPC_GPIO1->FIOPIN
 #define X_LIMIT_BIT       24  // X-MIN=24, X-MAX=25
-#define Y_LIMIT_BIT       27  // Y-MIN=26, Y-MAX=27
+#define Y_LIMIT_BIT       26  // Y-MIN=26, Y-MAX=27
 #define Z_LIMIT_BIT	      29  // Z-MIN=28, Z-MAX=29
 #define LIMIT_MASK       ((1<<X_LIMIT_BIT)|(1<<Y_LIMIT_BIT)) //|(1<<Z_LIMIT_BIT)) // All limit bits
 // hard limits not ported    #define LIMIT_INT        PCIE0  // Pin change interrupt enable pin
